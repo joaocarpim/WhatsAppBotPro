@@ -1,0 +1,50 @@
+# ===========================
+# 🐍 Python & Bytecode
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===========================
+# 📦 Ambientes Virtuais (VENV)
+# ===========================
+# Ignora as pastas onde ficam as bibliotecas instaladas
+venv/
+env/
+.venv/
+.env
+
+# ===========================
+# 🔒 Segurança & Sessão (MUITO IMPORTANTE)
+# ===========================
+# Ignora a pasta que salva o login do WhatsApp para não subir
+# seus dados pessoais para o GitHub
+whatsapp_session/
+
+# Arquivo de senhas/chaves
+.env
+
+# ===========================
+# 🤖 Selenium & Drivers
+# ===========================
+# Logs de erro do navegador
+*.log
+geckodriver.log
+chromedriver.log
+
+# Executáveis de drivers baixados localmente (se houver)
+chromedriver.exe
+msedgedriver.exe
+
+# ===========================
+# 💻 IDEs e Editores
+# ===========================
+.vscode/
+.idea/
+*.swp
+
+# ===========================
+# 🗑️ Lixo de Sistema
+# ===========================
+.DS_Store
+Thumbs.db
